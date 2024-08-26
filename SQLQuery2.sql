@@ -82,14 +82,14 @@ create table Tahliller(
 )
 insert into Personel
 values
-('1985-05-10T00:00:00','2017-10-02T00:00:00','Sultanbeyli/İstanbul','552-656-45-65','Başhekim','55555555555','Doktora'),
-('1988-05-10T00:00:00','2015-05-02T00:00:00','Maltepe/İstanbul','534-666-23-61','Muhasebe Personeli','65412325547','Lise'),
-('1992-09-13T00:00:00','2013-01-07T00:00:00','Beşiktaş/İstanbul','529-652-78-36','Temizlik Görevlisi','96352230022','Lise'),
-('1990-11-12T00:00:00','2022-08-12T00:00:00','Beylikdüzü/İstanbul','545-345-22-12','Uzm. Doktor','54120025356','Yüksek Lisans'),
-('1988-09-13T00:00:00','2015-03-02T00:00:00','Maltepe/İstanbul','522-355-24-11','Muhasebe Personeli','53330202122','Lisans'),
-('1992-05-18T00:00:00','2023-07-10T00:00:00','Beşiktaş/İstanbul','522-355-24-11','Temizlik Görevlisi','54452562562','Lise'),
-('1992-05-18T00:00:00','2023-08-18T00:00:00','Beşiktaş/İstanbul','522-355-24-11','Güvenlik','54452562562','Lise'),
-('1992-07-22T00:00:00','2022-05-12T00:00:00','Ataşehir/İstanbul','544-233-12-67','Hemşire','33626588521','Lisans')
+('1985-05-10T00:00:00','2017-10-02T00:00:00','Sultanbeyli/Ãstanbul','552-656-45-65','BaÃ¾hekim','55555555555','Doktora'),
+('1988-05-10T00:00:00','2015-05-02T00:00:00','Maltepe/Ãstanbul','534-666-23-61','Muhasebe Personeli','65412325547','Lise'),
+('1992-09-13T00:00:00','2013-01-07T00:00:00','BeÃ¾iktaÃ¾/Ãstanbul','529-652-78-36','Temizlik GÃ¶revlisi','96352230022','Lise'),
+('1990-11-12T00:00:00','2022-08-12T00:00:00','BeylikdÃ¼zÃ¼/Ãstanbul','545-345-22-12','Uzm. Doktor','54120025356','YÃ¼ksek Lisans'),
+('1988-09-13T00:00:00','2015-03-02T00:00:00','Maltepe/Ãstanbul','522-355-24-11','Muhasebe Personeli','53330202122','Lisans'),
+('1992-05-18T00:00:00','2023-07-10T00:00:00','BeÃ¾iktaÃ¾/Ãstanbul','522-355-24-11','Temizlik GÃ¶revlisi','54452562562','Lise'),
+('1992-05-18T00:00:00','2023-08-18T00:00:00','BeÃ¾iktaÃ¾/Ãstanbul','522-355-24-11','GÃ¼venlik','54452562562','Lise'),
+('1992-07-22T00:00:00','2022-05-12T00:00:00','AtaÃ¾ehir/Ãstanbul','544-233-12-67','HemÃ¾ire','33626588521','Lisans')
 
 
 insert into Bolumler
@@ -97,9 +97,9 @@ values
 ('Genel Cerrahi',20,'A'),
 ('Ortopedi',12,'A'),
 ('Dahiliye',23,'A'),
-('Nöroloji',12,'B'),
+('NÃ¶roloji',12,'B'),
 ('KBB',22,'A'),
-('Yönetim',11,'C'),
+('YÃ¶netim',11,'C'),
 ('Genel',60,'-')
 
 
@@ -112,6 +112,7 @@ values
 ('211'),
 ('301'),
 ('313'),
+('317'),	
 ('Genel')
 
 
@@ -119,28 +120,28 @@ values
 insert into Doktorlar
 values
 (1,1,4,'Fatih','Eraslan'),
-(4,4,3,'Orhan','Çınar')
+(4,4,3,'Orhan','Ã‡Ã½nar')
 
 insert into Hemsireler
 values
-(8,3,6,'Ayşe','Demir')
+(8,3,6,'AyÃ¾e','Demir')
 
 insert into Memurlar
 values
-(2,6,8,'Ali','Çelik'),
-(3,7,8,'Fatma','Çevik'),
-(5,7,8,'Sevda','Üstün'),
-(6,7,8,'Haydar','Güven'),
+(2,6,8,'Ali','Ã‡elik'),
+(3,7,8,'Fatma','Ã‡evik'),
+(5,7,8,'Sevda','ÃœstÃ¼n'),
+(6,7,8,'Haydar','GÃ¼ven'),
 (7,7,8,'Bahri','Baybars')
 
 
 insert into Hastalar
 values
-('Ahmet','Ergüç','1985-08-02T00:00:00','Sultanbeyli/İstanbul','522-655-65-63','54212003233','SSK'),
-('Meltem','Ergüç','1987-09-12T00:00:00','Sultanbeyli/İstanbul','552-565-12-78','65220222222','SSK'),
-('Ali','Demir','1989-04-09T00:00:00','Beykoz/İstanbul','533-455-41-78','52330225487','Bağkur'),
-('Selim','Ok','1999-05-02T00:00:00','Sarıyer/İstanbul','522-122-02-98','65221225489','Bağkur'),
-('Ayşe','Çevik','1965-05-02T00:00:00','Başakşehir/İstanbul','544-652-32-78','51420223222','SSK')
+('Ahmet','ErgÃ¼Ã§','1985-08-02T00:00:00','Sultanbeyli/Ãstanbul','522-655-65-63','54212003233','SSK'),
+('Meltem','ErgÃ¼Ã§','1987-09-12T00:00:00','Sultanbeyli/Ãstanbul','552-565-12-78','65220222222','SSK'),
+('Ali','Demir','1989-04-09T00:00:00','Beykoz/Ãstanbul','533-455-41-78','52330225487','BaÃ°kur'),
+('Selim','Ok','1999-05-02T00:00:00','SarÃ½yer/Ãstanbul','522-122-02-98','65221225489','BaÃ°kur'),
+('AyÃ¾e','Ã‡evik','1965-05-02T00:00:00','BaÃ¾akÃ¾ehir/Ãstanbul','544-652-32-78','51420223222','SSK')
 
 insert into Randevular
 values
@@ -153,10 +154,10 @@ values
 
 insert into Tahliller
 values
-(1,4,1,'Hemoglabin Tahlili','Çıktı'),
-(1,4,2,'İdrar Tahlili','Çıkmadı'),
-(1,4,3,'İnsülin Tahlili','Çıktı'),
-(2,7,4,'Röntgen','Çıktı')
+(1,4,1,'Hemoglabin Tahlili','Ã‡Ã½ktÃ½'),
+(1,4,2,'Ãdrar Tahlili','Ã‡Ã½kmadÃ½'),
+(1,4,3,'ÃnsÃ¼lin Tahlili','Ã‡Ã½ktÃ½'),
+(2,7,4,'RÃ¶ntgen','Ã‡Ã½ktÃ½')
 
 
 
